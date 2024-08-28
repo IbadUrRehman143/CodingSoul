@@ -1,0 +1,89 @@
+@media (min-width: 1900px) {
+    .container {
+        max-width: 1750px;
+    }
+}
+@media (min-width: 1900px) {
+    .bcontainer {
+        max-width: 1150px;
+        margin: auto;
+    }
+}
+
+
+.maincontainer{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid red; */
+}
+
+.thecard{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease ;
+    top: 0;
+    left: 0;
+
+    /* margin-top: 40px; */
+}
+.maincontainer:hover .thecard{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #3ae2f2;
+    color: #333;
+    border:2px solid #643EFE ;
+    /* align-items: center; */
+}
+.theback{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #3ae2f2;
+    color: #333;
+    transform: rotateY(180deg);
+    border: 2px solid #643EFE ;
+
+} 
+
+.bttn{
+    border: 2px solid #643EFE;
+}
+
+/* .contact-item:hover .contact-item > * {
+    text-decoration: underline !important;
+} */
+.contact-item:hover span {
+    color: red !important;
+    text-decoration: underline !important ; 
+}
+ 
+.contact-item:hover a {
+    color: red !important;
+    text-decoration: underline !important ; 
+}
+
+.project-card div {
+    transition: height .5s ;
+    cursor: pointer;
+    background-color: rgba(24, 106, 237, 0.299);
+    height: 0;
+}
+.project-card:hover div{
+    height: 100%;
+}
+.meet-card div {
+    cursor: pointer;
+    background-color: rgba(24, 106, 237, 0.299);
+    height: 100%;
+}
+
