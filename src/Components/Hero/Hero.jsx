@@ -1,11 +1,12 @@
 import React from 'react'
 import frontimage from "../../assets/op-1299-x-1280-px-4-1024x1009.png"
 import { Link } from 'react-router-dom'
+import opImage from '../../assets/op.png';
 import { FaCheck } from 'react-icons/fa'
 const Hero = () => {
   return (
     <>
-    <div className="tw-relative   tw-bg-cover " style={{ backgroundImage: "url('src/assets/op.png')" }}>
+   <div className="tw-relative tw-bg-cover" style={{ backgroundImage: `url(${opImage})` }}>
        <div className="container">
         <div className="row tw-items-center tw-gap-y-8 tw-pt-8">
             <div className="col-12 col-md-6">
