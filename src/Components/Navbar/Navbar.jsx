@@ -8,7 +8,6 @@ const Navbar = () => {
       <div className="tw-bg-white">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
-            {/* <div className="tw-w-full"> */}
             <div className="tw-flex tw-justify-between tw-items-center tw-w-full">
               <Link className="navbar-brand tw-flex-1" to="#">
                 <img src={logo} className="tw-w-36 tw-h-auto" alt="Coding Souls Logo" />
@@ -22,19 +21,19 @@ const Navbar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon "></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
             </div>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className=" navbar-nav me-auto mb-2 mb-lg-0 md:tw-gap-5  tw-w-full  tw-flex tw-flex-col lg:tw-flex-row tw-items-start lg:tw-justify-end">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 md:tw-gap-5 tw-w-full tw-flex tw-flex-col lg:tw-flex-row tw-items-start lg:tw-justify-end">
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd hover:tw-text-cyan-400 " aria-current="page" to="/">
+                  <Link className="nav-link active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan" aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap dropdown">
                   <a
-                    className="nav-link dropdown-toggle active tw-text-FMd hover:tw-text-cyan-400 "
+                    className="nav-link dropdown-toggle active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan"
                     to="/service"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -43,33 +42,32 @@ const Navbar = () => {
                     Services
                   </a>
                   <ul className="tw-border-t-8 tw-border-t-GlobalColord4b0483 tw-w-64 dropdown-menu">
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/website">Website Design</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/custom">Custom Website</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/appd">App Development</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/customcoding">Custom Coding</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/digitalmark">Digital Marketing</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/trending">Trending Solutions</Link></li>
-                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/hosting">Web Hosting</Link></li>
-
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/website">Website Design</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/custom">Custom Website</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/appd">App Development</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/customcoding">Custom Coding</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/digitalmark">Digital Marketing</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/trending">Trending Solutions</Link></li>
+                    <li><Link className="dropdown-item hover:tw-underline hover:tw-text-CustomCyan" to="/hosting">Web Hosting</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd hover:tw-text-cyan-400 " to="/projects">
+                  <Link className="nav-link active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan" to="/projects">
                     Projects
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/blogc">
+                  <Link className="nav-link active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan" to="/blogc">
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/aboutus">
+                  <Link className="nav-link active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan" to="/aboutus">
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/contact">
+                  <Link className="nav-link active tw-text-FMd hover:tw-underline hover:tw-text-CustomCyan" to="/contact">
                     Contact
                   </Link>
                 </li>
@@ -87,7 +85,6 @@ const Navbar = () => {
                 </Link>
               </form>
             </div>
-            {/* </div> */}
           </div>
         </nav>
         {/* Search Form (inside dropdown for smaller screens) */}

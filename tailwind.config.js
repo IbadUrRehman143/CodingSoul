@@ -20,6 +20,7 @@ export default {
         GlobalColor05b8906: "#643EFE",
         GlobalColorc85df0c: "#1DE3FE",
         GlobalColord4b0483: "#4877FC",
+        CustomCyan: '#45a29e',
       },
       fontSize: {
         FSm: "17px",
