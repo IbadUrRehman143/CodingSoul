@@ -66,7 +66,7 @@ const SliderCards = () => {
             <div className="tw-bg-GlobalColorc85df0c tw-py-8">
                 <div className="container">
                     <div>
-                        <h1 className='md:tw-text-Fxxlg tw-text-Fxlg tw-font-bold tw-text-center tw-py-7'>
+                        <h1 className='md:tw-text-Fxxlg tw-text-Fxlg animate__animated animate__fadeInBottomLeft tw-font-bold tw-text-center tw-py-7'>
                             Trusted by 100+ International Companies
                         </h1>
                         <Slider {...settings}>

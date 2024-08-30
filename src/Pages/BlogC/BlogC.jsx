@@ -9,12 +9,14 @@ import { Link } from 'react-router-dom';
 import Quote from '../../Components/Quote/Quote';
 import Footer from '../../Components/Footer/Footer';
 import Copywrite from '../../Components/Copywrite/Copywrite';
+import Hero2 from '../../Components/Hero2/Hero2';
 
 const BlogC = () => {
   return (
     <>
       <Nav />
       <Navbar />
+      <Hero2/>
       <div className="bcontainer">
         <h1 className='tw-text-5xl tw-py-8 tw-ml-2 '>APP Development</h1>
         <div className="tw-flex tw-flex-wrap tw-justify-between">

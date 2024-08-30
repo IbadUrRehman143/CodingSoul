@@ -11,7 +11,7 @@ import DigitalMark from "./Components/DigitalMark/DigitalMark"
 import Trending from "./Components/Trending/Trending"
 import Hosting from "./Components/Hosting/Hosting"
 import BlogC from "./Pages/BlogC/BlogC"
-
+import 'animate.css';
 
 function App() {
  
