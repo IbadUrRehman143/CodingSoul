@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <>
-    <div className="tw-relative   tw-bg-cover " style={{ backgroundImage: "url('src/assets/op.png')" }}>
+    <div className="tw-relative tw-bg-amber-500   tw-bg-cover " style={{ backgroundImage: "url('src/assets/op.png')" }}>
        <div className="container">
         <div className="row tw-items-center tw-gap-y-8 tw-pt-8">
             <div className="col-12 col-md-6">
