@@ -13,13 +13,13 @@ const PlatForms = () => {
         </h1>
         <div className="tw-pb-10 tw-grid tw-gap-5 tw-justify-center md:tw-grid-cols-3 sm:tw-grid-cols-2 tw-grid-cols-1">
           <Link to="https://www.facebook.com/Maazurrahmanofficial/?_rdr">
-            <img src={image2} alt="" className="tw-rounded-2xl tw-w-80 md:tw-w-5/6" />
+            <img src={image2} alt="" className="tw-rounded-2xl tw-w-72 tw-ml-8  md:tw-ml-0 md:tw-w-5/6" />
           </Link>
           <Link to="">
-            <img src={image3} alt="" className="tw-rounded-2xl tw-w-80 md:tw-w-5/6" />
+            <img src={image3} alt="" className="tw-rounded-2xl tw-w-72 tw-ml-8  md:tw-ml-0 md:tw-w-5/6" />
           </Link>
           <Link to="https://www.google.com/search?gs_ssp=eJwFwUEKgCAQAEC6Bn0hvHTWZQ3LJ_QLdVmRLAsrfH4z_SCjBLjhgNxwV52dVMOF2DPhAkEbzWBVM-R5Ncg-zGQQ3DaGQumMopY3V3F9j8gPiVSzO5x39ANTIxtF&q=coding+souls+pvt+ltd+islamabad&oq=coding+&gs_lcrp=EgZjaHJvbWUqDAgCEC4YJxivARjHATIHCAAQABiPAjIGCAEQRRg7MgwIAhAuGCcYrwEYxwEyCggDEAAYsQMYgAQyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDY1MTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
-            <img src={image1} alt="" className="tw-rounded-2xl tw-w-80 md:tw-w-5/6" />
+            <img src={image1} alt="" className="tw-rounded-2xl tw-w-72 tw-ml-8  md:tw-ml-0 md:tw-w-5/6" />
           </Link>
         </div>
       </div>
