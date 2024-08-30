@@ -28,13 +28,13 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className=" navbar-nav me-auto mb-2 mb-lg-0 md:tw-gap-5  tw-w-full  tw-flex tw-flex-col lg:tw-flex-row tw-items-start lg:tw-justify-end">
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd tw-font-semibold" aria-current="page" to="/">
+                  <Link className="nav-link active tw-text-FMd hover:tw-text-cyan-400 " aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap dropdown">
                   <a
-                    className="nav-link dropdown-toggle active tw-text-FMd tw-font-semibold"
+                    className="nav-link dropdown-toggle active tw-text-FMd hover:tw-text-cyan-400 "
                     to="/service"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -43,33 +43,33 @@ const Navbar = () => {
                     Services
                   </a>
                   <ul className="tw-border-t-8 tw-border-t-GlobalColord4b0483 tw-w-64 dropdown-menu">
-                    <li><Link className="dropdown-item" to="/website">Website Design</Link></li>
-                    <li><Link className="dropdown-item" to="/custom">Custom Website</Link></li>
-                    <li><Link className="dropdown-item" to="/appd">App Development</Link></li>
-                    <li><Link className="dropdown-item" to="/customcoding">Custom Coding</Link></li>
-                    <li><Link className="dropdown-item" to="/digitalmark">Digital Marketing</Link></li>
-                    <li><Link className="dropdown-item" to="/trending">Trending Solutions</Link></li>
-                    <li><Link className="dropdown-item" to="/hosting">Web Hosting</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/website">Website Design</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/custom">Custom Website</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/appd">App Development</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/customcoding">Custom Coding</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/digitalmark">Digital Marketing</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/trending">Trending Solutions</Link></li>
+                    <li><Link className="dropdown-item hover:tw-text-cyan-400 " to="/hosting">Web Hosting</Link></li>
 
                   </ul>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd tw-font-semibold" to="/projects">
+                  <Link className="nav-link active tw-text-FMd hover:tw-text-cyan-400 " to="/projects">
                     Projects
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd tw-font-semibold" to="/blogc">
+                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/blogc">
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd tw-font-semibold" to="/aboutus">
+                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/aboutus">
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item tw-text-nowrap">
-                  <Link className="nav-link active tw-text-FMd tw-font-semibold" to="/contact">
+                  <Link className="nav-link active tw-text-FMd  hover:tw-text-cyan-400" to="/contact">
                     Contact
                   </Link>
                 </li>

@@ -107,8 +107,8 @@ const  Press =({wordpress,para3,para4, className})=>{
         <div className="tw-flex tw-justify-center">
             <img src={wordpress} className="lg:tw-w-96 tw-w-72  tw-items-center" alt="" />
         </div>
-        <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para3}</p>
-        <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para4}</p>
+        <p className="lg:tw-text-xl tw-text-FSm  tw-text-left tw-text-wrap tw-ml-2 tw-py-5">{para3}</p>
+        <p className="lg:tw-text-xl tw-text-FSm  tw-text-left tw-text-wrap tw-ml-2 tw-py-5">{para4}</p>
         <div className="tw-space-x-3 tw-flex tw-justify-center">
             <button className="btn btn-outline tw-border-t-cyan-400 tw-border-r-GlobalColoraccent tw-border-b-GlobalColor05b8906 tw-border-l-cyan-800 tw-text-xl md:tw-text-2xl hover:tw-bg-GlobalColorc85df0c tw-mt-6">
                 Free Consultation
@@ -137,17 +137,16 @@ const Website = () => {
                 />
                 <Trusted para1="Trusted by 100+ International Companies" 
                 />
-              <Development  />
                 <Press wordpress={image2} para3="Our expert WordPress developers has over 5 years of experience in crafting custom WordPress solutions, themes, and plugins. With a deep understanding of WordPress core, themes, plugins, and customization, we deliver high-performance websites that meet our clients’ specific business needs." 
                 para4="With a quality reviews of successful WordPress projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your WordPress needs."
                 />
-                <Press  wordpress={image3} className="tw-bg-GlobalColorc85df0c tw-rounded-tl-full tw-rounded-br-full " para="Our expert Wix developers have over 5 years of experience in crafting custom Wix solutions, templates, and applications. With a deep understanding of Wix ADI, Wix Editor, and Wix Code, we deliver high-performance websites that meet our clients’ specific business needs." 
+                <Press  wordpress={image3} className="tw-bg-GlobalColorc85df0c  tw-rounded-br-full " para="Our expert Wix developers have over 5 years of experience in crafting custom Wix solutions, templates, and applications. With a deep understanding of Wix ADI, Wix Editor, and Wix Code, we deliver high-performance websites that meet our clients’ specific business needs." 
                 para4="With a quality portfolio of successful Wix projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your Wix needs."
                 />
                 <Press wordpress={image4} para3="Our expert Shopify developers have over 5 years of experience in crafting custom Shopify solutions, themes, and apps. With a deep understanding of Shopify Liquid, Shopify Plus, and Shopify API, we deliver high-performance ecommerce websites that meet our clients’ specific business needs."
                 para4="With a quality portfolio of successful Shopify projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your Shopify needs."
                 />
-                <Press wordpress={image5} className="tw-bg-GlobalColorc85df0c tw-rounded-tl-full tw-rounded-br-full " para3="Our expert Magento developers have over 5 years of experience in crafting custom Magento solutions, themes, and extensions. With a deep understanding of Magento Commerce, Magento Open Source, and Magento Cloud, we deliver high-performance ecommerce websites that meet our clients’ specific business needs."
+                <Press wordpress={image5} className="tw-bg-GlobalColorc85df0c  tw-rounded-br-full " para3="Our expert Magento developers have over 5 years of experience in crafting custom Magento solutions, themes, and extensions. With a deep understanding of Magento Commerce, Magento Open Source, and Magento Cloud, we deliver high-performance ecommerce websites that meet our clients’ specific business needs."
                 para4="With a quality portfolio of successful Magento projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your Magento needs."
                 />
                 <Press wordpress={image6} para3="Our expert Squarespace designers and developers have over 5 years of experience in crafting custom Squarespace solutions, templates, and websites. With a deep understanding of Squarespace UX/UI, Squarespace commerce, and Squarespace development, we deliver high-performance websites that meet our clients’ specific business needs."

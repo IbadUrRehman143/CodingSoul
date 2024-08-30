@@ -16,7 +16,6 @@ import Clients from '../Clients/Clients';
 import Quote from '../Quote/Quote';
 import Footer from '../Footer/Footer';
 import Copywrite from '../Copywrite/Copywrite';
-import Coding from '../Coding/Coding';
 const Custom = () => {
     return (
         <>
@@ -30,7 +29,7 @@ const Custom = () => {
                 wordpress={image2}
                 para3="Our expert PHP developers have over 5 years of experience in building robust, scalable, and secure web applications using PHP frameworks like Laravel, CodeIgniter, and CakePHP. With a deep understanding of PHP’s ecosystem, tools, and best practices, we deliver high-performance solutions that meet our clients’ specific business needs. From web development to enterprise-level applications, our team has expertise in a wide range of PHP domains."
                 para4="With a quality record of successful PHP projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your PHP needs. We stay up-to-date with the latest advancements in PHP, ensuring our solutions are always innovative, efficient, and effective, helping startups like yours achieve rapid growth and success."
-                className="tw-bg-GlobalColorprimary tw-rounded-tl-full tw-rounded-br-full "
+                className="tw-bg-GlobalColorprimary tw-rounded-br-full "
             />
             <Press
             wordpress={image3}
@@ -41,7 +40,7 @@ const Custom = () => {
             wordpress={image4}
             para3="Our expert React Native developers have over 5 years of experience in building fast, scalable, and seamless mobile applications for iOS and Android. With a deep understanding of React Native frameworks, tools, and best practices, we deliver high-performance solutions that meet our clients’ specific business needs. From Expo to Redux, our team has expertise in a wide range of React Native domains."
             para4="With a quality record of successful React Native projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your React Native needs. We stay up-to-date with the latest advancements in React Native, ensuring our solutions are always innovative, efficient, and effective, helping startups like yours achieve rapid growth and success.Free Consultation"
-            className="tw-bg-GlobalColorc85df0c tw-rounded-tl-full tw-rounded-br-full "
+            className="tw-bg-GlobalColorc85df0c  tw-rounded-br-full "
             />
             <Press 
             wordpress={image5}
@@ -146,8 +145,8 @@ const Press = ({ wordpress, para3, para4, className }) => {
                     <div className="tw-flex tw-justify-center">
                         <img src={wordpress} className="lg:tw-w-96 tw-w-72  tw-items-center" alt="" />
                     </div>
-                    <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para3}</p>
-                    <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para4}</p>
+                    <p className="lg:tw-text-xl tw-text-FSm  md:tw-text-center tw-text-left tw-py-5">{para3}</p>
+                    <p className="lg:tw-text-xl tw-text-FSm  md:tw-text-center tw-text-left tw-py-5">{para4}</p>
                     <div className="tw-space-x-3 tw-flex tw-justify-center">
                         <button className="btn btn-outline tw-border-t-cyan-400 tw-border-r-GlobalColoraccent tw-border-b-GlobalColor05b8906 tw-border-l-cyan-800 tw-text-xl md:tw-text-2xl hover:tw-bg-GlobalColorc85df0c tw-mt-6">
                             Free Consultation

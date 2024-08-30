@@ -10,10 +10,10 @@ import imag17 from "../../assets/12.png";
 const CodingText = () => {
     return (
         <div className="col-lg-6">
-            <h1 className='tw-py-4 tw-text-2xl lg:tw-text-5xl tw-font-bold'>
+            <h1 className='tw-py-4 tw-text-2xl lg:tw-text-5xl tw-ml-4 md:tw-ml-0 tw-font-bold'>
                 We can help you via our Coding Services
             </h1>
-            <p className='tw-py-4 tw-text-base lg:tw-text-lg'>
+            <p className='tw-py-4 tw-text-base tw-ml-6 tw-text-wrap lg:tw-text-lg'>
                 We can help you bring your vision to life with our expert coding services. Our team of skilled developers can architect, design, and build custom software solutions that meet your specific needs. From backend development to frontend design, we’ve got you covered. Our coding services ensure scalability, security, and efficiency, giving you a competitive edge. Let us help you harness the power of code to drive your business forward.
             </p>
         </div>

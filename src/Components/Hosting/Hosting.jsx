@@ -52,10 +52,10 @@ const Host = ({ Header, year, month, para1, para2 }) => {
                     <h1 className='tw-text-2xl md:tw-text-3xl tw-text-GlobalColor05b8906 lg:tw-text-4xl tw-font-bold tw-py-4'>
                         {Header}
                     </h1>
-                    <p className='tw-text-base md:tw-text-lg lg:tw-text-xl tw-px-4 lg:tw-px-12'>
+                    <p className='tw-text-base md:tw-text-lg lg:tw-text-xl tw-px-4 lg:tw-px-12 tw-text-left md:tw-text-center'>
                         {para1}
                     </p>
-                    <p className='tw-text-base md:tw-text-lg lg:tw-text-xl tw-px-4 lg:tw-px-12 tw-mt-4'>
+                    <p className='tw-text-base md:tw-text-lg lg:tw-text-xl tw-px-4 lg:tw-px-12 tw-text-left md:tw-text-center tw-mt-4'>
                         {para2}
                     </p>
                     <div className='tw-mt-6'>

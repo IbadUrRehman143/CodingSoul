@@ -24,7 +24,7 @@ import imag12 from "../../assets/X13.webp";
 const AppD = () => {
     return (
         <>
-            <div className="">
+            <div className="tw-overflow-x-hidden">
                 <Nav />
                 <Navbar />
                 <First para="Transform your ideas into stunning apps with our expert app development and launching services, delivering seamless user experiences and successful market debuts." headings="Expert APP Development & Launching Services" image={image1} />
@@ -39,7 +39,7 @@ const AppD = () => {
                     wordpress={image2}
                     para3="Our expert Android app developers have over 5 years of experience in crafting custom Android apps, with a deep understanding of Java, Kotlin, and Android SDK. We deliver high-performance Android apps that meet our clients’ specific business needs, with expertise in Android UI/UX design, app security, and optimization."
                     para4="With a quality portfolio of successful Android app projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your Android app development needs."
-                    className="tw-bg-GlobalColorprimary tw-rounded-tl-full tw-rounded-br-full "
+                    className="tw-bg-GlobalColorprimary  tw-rounded-br-full "
                 />
                 <Press
                     wordpress={image3}
@@ -50,7 +50,7 @@ const AppD = () => {
                     wordpress={image4}
                     para3="Our expert Windows app developers have over 5 years of experience in crafting custom Windows apps, with a deep understanding of C#, .NET, and Windows SDK. We deliver high-performance Windows apps that meet our clients’ specific business needs, with expertise in Windows UI/UX design, app security, and optimization."
                     para4="With a quality portfolio of successful Windows app projects across various industries, we bring a personalized approach to each project, ensuring timely delivery and ongoing support. Our expertise and experience make us the perfect partner for your Windows app development needs."
-                    className="tw-bg-GlobalColorc85df0c tw-rounded-tl-full tw-rounded-br-full "
+                    className="tw-bg-GlobalColorc85df0c  tw-rounded-br-full "
                 />
                 <Press
                     wordpress={image5}
@@ -102,9 +102,9 @@ const First = ({ para, headings, image }) => {
 const Trusted = ({ para1 }) => {
     return (
         <>
-            <div className="tw-bg-GlobalColorc85df0c tw-rounded-tl-full tw-rounded-br-full ">
+            <div className="tw-bg-GlobalColorc85df0c  ">
                 <div className="bcontainer tw-py-10">
-                    <h1 className='tw-text-black tw-text-3xl lg:tw-text-4xl tw-text-center tw-px-4 lg:tw-px-10 tw-py-8'>
+                    <h1 className='tw-text-black tw-text-xl lg:tw-text-4xl tw-text-center tw-px-4 lg:tw-px-10 tw-py-8'>
                         {para1}
                     </h1>
                     <div className="tw-mt-8">
@@ -159,8 +159,8 @@ const Press = ({ wordpress, para3, para4, className }) => {
                     <div className="tw-flex tw-justify-center">
                         <img src={wordpress} className="lg:tw-w-96 tw-w-52  tw-items-center" alt="" />
                     </div>
-                    <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para3}</p>
-                    <p className="lg:tw-text-xl tw-text-FSm  tw-text-center tw-py-5">{para4}</p>
+                    <p className="lg:tw-text-xl tw-text-FSm  md:tw-text-center tw-ml-4 md:tw-ml-0 tw-text-left tw-py-5">{para3}</p>
+                    <p className="lg:tw-text-xl tw-text-FSm  md:tw-text-center tw-ml-4 md:tw-ml-0 tw-text-left tw-py-5">{para4}</p>
                     <div className="tw-space-x-3 tw-flex tw-justify-center">
                         <button className="btn btn-outline tw-border-t-cyan-400 tw-border-r-GlobalColoraccent tw-border-b-GlobalColor05b8906 tw-border-l-cyan-800 tw-text-xl md:tw-text-2xl hover:tw-bg-GlobalColorc85df0c tw-mt-6">
                             Free Consultation
