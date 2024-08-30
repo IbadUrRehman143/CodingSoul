@@ -16,7 +16,7 @@ const BlogC = () => {
     <>
       <Nav />
       <Navbar />
-      <Hero2/>
+      <Hero2 heading=" OUR BLOG" />
       <div className="bcontainer">
         <h1 className='tw-text-5xl tw-py-8 tw-ml-2 '>APP Development</h1>
         <div className="tw-flex tw-flex-wrap tw-justify-between">
